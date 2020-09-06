@@ -11,7 +11,7 @@ def sida69():
 
 @app.route('/sida')
 def sida():
-    return render_template("netsamskipti.md")
+    return render_template("svor.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

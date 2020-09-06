@@ -7,8 +7,64 @@
 </head>
 <body>
     {%include "navbar.html"%}
-    <h4>
-        {%include "netsamskipti.md"%}
-    </h4>
+<ul> 
+  <li><ol> Hvað er það kallað þegar vafri (client) sendir fyrirspurn um að birta ákveðna vefsíðu á vefþjón (web server)?
+    <li>Query</li>
+    <li>Request</li>
+    <li>Response</li>
+    </ol>
+    Svar: 2. Request
+  </li>
+  <li><ol> Gefum okkur að vafri sendi fyrirspurn á vefþjón og vefþjónn sendir til baka boð sem segir að allt hafi heppnast án villu.  Hvaða status code fær vafrinn frá vefþjóninum?
+    <li>100 OK</li>
+    <li>200 OK</li>
+    <li>404 OK</li>
+    </ol>
+    Svar: 2. 200 OK
+    </li>
+  <li><ol> Hver er nýjast útgáfa HTTP staðalsins?
+    <li>HTTP/1.0</li>
+    <li>HTTP/1.1</li>
+    <li>HTTP/2.0</li>
+    </ol>
+    Svar: 2. HTTP/1.1
+    </li>
+  <li><ol> Hvað er sjálfgefið port á vöfrum?
+    <li>80</li>
+    <li>82</li>
+    <li>88</li>
+    </ol>
+    Svar: 1. 80
+    </li>
+  <li><ol> Hvað er algengasta skráarsnið vefsíðna á Internetinu?
+    <li>.mpeg</li>
+    <li>.docs</li>
+    <li>.html</li>
+    </ol>
+    Svar: 3. .html
+    </li>
+  <li><ol> Hvert af eftirtöldu lýsir best tilgangi og hlutverki HTTP staðalsins?
+    <li>HTTP staðalinn er notaður til meðhöndla samskipti póstþjóna (mail servers)</li>
+    <li><strong>HTTP staðalinn er samskiptastaðall sem höndlar samskipti milli vafra (client) og vefþjóna (webservers)</strong></li>
+    <li>HTTP staðalinn er neðsta lagið í 7 laga OSI staðlinum.</li>
+    </ol>
+    </li>
+  <li><ol>Skiptu upp eftrifarandi vefslóð (URL) http://www.mbl.is/frettir?a=2&b=3
+    <li>protocol: (http://)</li>
+    <li>host: (www.mbl.is)</li>
+    <li>path: (/frettir)</li>
+    <li>query: (?a=2&b=3)</li>
+    </ol>
+    </li>
+  <li> Hvað er átt við með því þegar talað er um að HTTP staðallinn sé stateless protocol? <br>
+    Svar: Það þýðir að HTTP vefsíður geima ekki session
+    </li>
+  <li> Hvaða skýring passar við "GET Request" _Takið út röngu skýringuna_ <br>
+    <strong>GET</strong> sendir gögn á miðlara, krafan er ekki geymd í vinnsluminni og birtist ekki í vefslóð
+    </li>
+  <li> Hvaða skýring passar við POST request? <br>
+    <strong>POST</strong> sækir gögn sem beðið er um af miðlara, krafan birtist í vefslóðinni og er geymd í vinnsluminni vafrans
+    </li>
+</ul>
 </body>
 </html>
